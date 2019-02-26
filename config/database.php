@@ -7,7 +7,7 @@ $capsule = new Capsule;
 $capsule->addConnection([
     'driver' => 'sqlsrv',
     'host' => 'localhost',
-    'database' => 'CrudExample',
+    'database' => 'crudphp',
     'username' => 'SA',
     'password' => 'Watchman347',
     'charset' => 'utf8',

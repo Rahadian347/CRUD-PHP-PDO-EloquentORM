@@ -1,4 +1,4 @@
-CREATE DATABASE CrudExample
+CREATE DATABASE crudphp
 GO
 
 CREATE TABLE [items](
