@@ -38,7 +38,7 @@ class ItemsController {
             $item->description = $_POST['description'];
             $item->status = $_POST['status'];
             $item->save();
-            header("Location: $base_url>action=list");
+            header("Location: $base_url?action=list");
         } else {
             require './app/Views/templates/layout.html';
         }
@@ -50,7 +50,7 @@ class ItemsController {
         $view = 'items/delete';
         $item = Item::find($id);
 
-        if ($_SERVER['REQUEST_METOD'] == 'POST') {
+        if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $item->delete();
 
             header("Location: $base_url?action=list");
