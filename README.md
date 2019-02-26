@@ -1,1 +1,1 @@
-this is an example of simple CRUD with PHP + SQL Server eloquent ORM
+this is an example for simple CRUD with Object Oriented PHP, MsSQL-Server, and Bulma CSS
